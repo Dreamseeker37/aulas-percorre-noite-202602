@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascading Stylesheet </title>
+    <!-- CSS embedded (embutido) -->
+    <style>
+        p {
+            font-size: 100px;
+        }
+
+        #gato {
+            color:yellowgreen
+        }
+
+        #cachorro {
+            color:maroon
+        }
+    </style>
+
+
+</head>
+<body>
+
+<!-- O CSS tem uma hierarquia na qual o style aplicado inline é priorizado mesmo quando tiver embedded ou externo (nao lembro o nome :P) -->
+<!-- CSS inline é aquele que vai dentro da própria tag -->
+    <p style="color: rebeccapurple; font-size: 200px;">Kojima</p>
+    <p id="cachorro">Jotchua</p>
+    <p id="gato">Chaburcio</p>
+
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+/* no site do googlefonts da pra selecionar varias fontes ao mesmo tempo e importar de uma vez só igual abaixo. */
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Edu+QLD+Hand:wght@400..700&display=swap');
+body {
+    background-color: rebeccapurple;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 50px;
+}
+
+#foto-perfil {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+#usuario {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+/* fonte pra links que coloquei */
+a {
+    font-family: "Bricolage Grotesque", sans-serif;
+    padding-left: 19px;
+    /* text-decoration: none remove o sublinhado do link ou quaisquer outras decorações que uma tag textual possa ter */
+    text-decoration: none;
+}
+
+/* fonte pro nome de usuário que coloquei */
+#nome-usuario {
+    font-family: "Edu QLD Hand", cursive;
+}
+
+#header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* DISPLAY FLEX AJUSTA INDEPENDENTE DO TAMANHO DA TELA DO DISPOSITIVO, LOGO É MAIS UTILIZADO. AGORA O MARGIN/PADDING É SOMENTE PARA AJUSTES FINOS */
+}
+
+footer {
+    background-color: black;
+    height: 400px;
+}
+
+#direitos {
+    color: white;
+    font-size: 30px;
+}
+
+#footer-nav {
+    
+}
