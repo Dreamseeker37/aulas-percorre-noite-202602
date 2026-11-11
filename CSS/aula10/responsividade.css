@@ -1,0 +1,25 @@
+.vitrine {
+    display: flex;
+
+}
+
+.vitrine-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rebeccapurple;
+    border-radius: 25%;
+    border: 15px solid yellowgreen;
+
+    width: 350px;
+    height: 350px;
+
+    font-size: 30px;
+    color: white;
+}
+
+.vitrine-card img {
+    width: 200px;
+}
