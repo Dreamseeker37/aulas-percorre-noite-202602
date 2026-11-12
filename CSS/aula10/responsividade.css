@@ -1,5 +1,7 @@
 .vitrine {
     display: flex;
+    justify-content: center;
+    gap: 30px;
 
 }
 
@@ -23,3 +25,17 @@
 .vitrine-card img {
     width: 200px;
 }
+
+
+/* TODO O CSS QUE ESTIVER DENTRO DO @MEDIA SÓ FUNCIONA NO CELULAR, ENTÃO ESSAS REGRAS SERÃO IGNORADAS EM TELAS GRANDES */
+
+/* Regras para telas que tenham no máximo 440px de largura*/
+@media (max-width: 440px){
+    .vitrine {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Responsividade é um assunto muito importante que pode ser tratado de maneira simples,
+ no exemplo acima temos uma regra que deve abranger a maioria dos dispositivos móveis. */
